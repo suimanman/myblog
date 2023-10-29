@@ -1,0 +1,37 @@
+{
+  "id": "4298938",
+  "name": "suiman",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "32669029",
+      "name": "团队账号",
+      "font_class": "tuanduizhanghao",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "35377087",
+      "name": "ios端",
+      "font_class": "iosduan",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "35377091",
+      "name": "安卓端",
+      "font_class": "anzhuoduan",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "37667059",
+      "name": "关闭 icon",
+      "font_class": "a-guanbiicon",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}

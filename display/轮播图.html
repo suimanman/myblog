@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轮播图</title>
+    <style>
+        ul {
+            width: 590px;
+            height: 470px;
+            margin: 100px auto;
+            list-style: none;
+            padding: 0;
+            position: relative;
+        }
+        ul li{
+            position: absolute;
+        }
+        .pointer{
+            position: absolute;
+            z-index: 9;
+            bottom: 20px;
+            left: 40px;
+        }
+        .pointer a{
+            width: 10px;
+            height: 10px;
+            background-color:rgb(255, 255, 255,.6);
+            border-radius: 50%;
+            float: left;
+            margin-left: 8px;
+            background-clip: content-box;
+            border: 2px solid transparent;
+        }
+        .pointer a.active,
+        .pointer a:hover{
+            background-color: aliceblue;
+            border: 2px solid rgb(255, 255, 255,.6);
+        }
+    </style>
+</head>
+<body>
+    <ul class="lunbotu">
+        <li class="i1">
+            <a href="#">
+                <img src="../img/q (1).jpg" alt="">
+            </a>
+        </li>
+        <li class="i2">
+            <a href="#">
+                <img src="../img/q (2).jpg" alt="">
+            </a>
+        </li>
+        <li class="i3">
+            <a href="#">
+                <img src="../img/q (3).jpg" alt="">
+            </a>
+        </li>
+        <li class="i4">
+            <a href="#">
+                <img src="../img/q (4).jpg" alt="">
+            </a>
+        </li>
+        <li class="i5">
+            <a href="#">
+                <img src="../img/q (5).jpg" alt="">
+            </a>
+        </li>
+        <li class="i6">
+            <a href="#">
+                <img src="../img/q.jpg" alt="">
+            </a>
+        </li>
+
+        <div class="pointer">
+            <a  href="../img/q (1).jpg"></a>
+            <a href="../img/q (2).jpg"></a>
+            <a href="../img/q (3).jpg"></a>
+            <a href="../img/q (4).jpg"></a>
+            <a href="../img/q (5).jpg"></a>
+            <a href="../img/q.jpg"></a>
+        </div>
+    </ul>
+</body>
+</html>

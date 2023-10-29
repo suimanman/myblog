@@ -13,7 +13,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #252839;
+    background: linear-gradient(to top left, #0c5f3f, #191061);
 }
 ul{
     position: relative;
